@@ -54,6 +54,19 @@ form {
    
 }
 
+.button a {
+    background-color: white!important;
+    border-color: $color-main!important;
+    color: $color-main;
+    
+  }
+
+  .button a:hover {
+    background-color:$color-main!important;
+    color: white!important;
+    transition: all 0.2s ease;
+        }
+
 //Tipografias//
 
 

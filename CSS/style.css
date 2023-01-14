@@ -26,6 +26,16 @@ form {
       text-decoration: none;
       color: black; }
 
+.button a {
+  background-color: white !important;
+  border-color: #feba8c !important;
+  color: #feba8c; }
+
+.button a:hover {
+  background-color: #feba8c !important;
+  color: white !important;
+  transition: all 0.2s ease; }
+
 header {
   font-family: "poppins"; }
 
