@@ -61,11 +61,31 @@ form {
     
   }
 
+  //Transiciones//
+
   .button a:hover {
     background-color:$color-main!important;
     color: white!important;
     transition: all 0.2s ease;
-        }
+        
+  }
+
+  .zoom {
+		transition: 0.5s ease;
+ 		-moz-transition: 0.5s ease; /* Firefox */
+ 		-webkit-transition: 0.5s ease; /* Chrome - Safari */
+ 		-o-transition: 0.5s ease; /* Opera */
+    
+	}
+  
+	.zoom:hover {
+		transform : scale(1.03);
+		-moz-transform : scale(1.03); /* Firefox */
+		-webkit-transform : scale(1.03); /* Chrome - Safari */
+		-o-transform : scale(1.03); /* Opera */
+		-ms-transform : scale(1.03); /* IE9 */
+    
+	}
 
 //Tipografias//
 
